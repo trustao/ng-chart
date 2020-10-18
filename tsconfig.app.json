@@ -2,6 +2,8 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
     "types": []
   },
   "files": [
